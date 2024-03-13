@@ -1,0 +1,17 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+p1{
+    font-size: 1rem;
+    color: rgb(255, 255, 255)
+}
+/* footer.css */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #060220;
+    text-align: center;
+    padding: 10px;
+}

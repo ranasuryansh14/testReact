@@ -1,0 +1,39 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.App {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid hsla(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    padding: 20px ;
+    margin: 10px;
+    text-align: center;
+    width: 350px; /* Set the fixed width */
+    display: flex;
+    flex-direction: column;
+}
+
+.card .card-image {
+    border-radius: 5px;
+    flex: -1; /* Take remaining space */
+    object-fit: cover;
+}
+
+.card .card-title {
+    font-weight: 600;
+    color: rgb(8, 8, 71);
+}
+
+.card p {
+    flex: -1; /* Take remaining space */
+}
+
+.card:hover {
+    border: 2px solid rgb(8, 20, 62);
+}

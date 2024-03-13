@@ -1,0 +1,42 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #060220;
+    color: #f1f100;
+    padding: 10px 0;
+    text-align: center;
+}
+h1{
+    font-family: "Nosifer", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    height: 45px;
+}
+li {
+    float: right;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 25px;
+    font-size: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-size: 1rem;
+    color: #f1f100;
+}

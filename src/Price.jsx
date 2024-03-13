@@ -13,10 +13,10 @@ const Price = () =>{
     };
   
     return <>
-      <div>
-        <p>Counter: {counter}</p>
-        <button onClick={increment}>+</button>
-        <button onClick={decrement}>-</button>
+     <div className="main">
+        <button className="btn" onClick={increment}>+</button>
+        <p className="para">Counter: {counter}</p>
+        <button className="btn" onClick={decrement}>-</button>
       </div>
       </>
   

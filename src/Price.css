@@ -1,21 +1,21 @@
-.button {
-    background-color: #0b3b6e;
-    color: rgb(127, 21, 21);
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    margin-right: 10px;
-    font-size: 6rem;
-  }
-  
-  .button:hover {
-    background-color: #0056b3;
-  }
-  .increment-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-  }
-  
+button {
+  background-color: #005de7;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 3px;
+  font-size: 2rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+}

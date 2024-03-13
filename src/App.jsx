@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
-// import Card from "./Card.jsx";
+import Card from "./Card.jsx";
 import Price from "./Price.jsx";
 import "./Header.css";
 import "./Footer.css";
@@ -10,11 +10,10 @@ import "./Price.css";
 import Test from './test.jsx';
 
 function App() {
-  return 
-    <>
+  return<>
      <Test/>
-      {/* <Header /> */}
-      {/* <div className="App">
+      <Header />
+      <div className="App">
         <Card
           imageUrl="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           title="Mutton Korma"
@@ -39,10 +38,10 @@ function App() {
           description="In Stock"
         >
         </Card>
-      </div> */}
+      </div>
      
 
-      {/* <Footer /> */}
+      <Footer />
     </>
 }
 
